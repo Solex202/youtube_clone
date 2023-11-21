@@ -2,11 +2,12 @@ import React from 'react'
 import video from "./video.module.css"
 import img1 from "../../assets/thumbnail-1.webp"
 import header from "./header.module.css";
+import sidebar from "./sidebar.module.css";
 
 const Youtube = () => {
   return (
     <div>
-        <div className={header.header}>
+        <div className={header.headers}>
 
             <div className={header.left_section}>
                 <img className={header.hamburger_menu} src="src/icons/hamburger-menu.svg"/>
@@ -19,7 +20,6 @@ const Youtube = () => {
                 </button>
                 <button className={header.voice_search}>
                     <img className={header.voice_search_icon} src="src/icons/voice-search-icon.svg"/>
-
                 </button>
             </div>
             <div className={header.right_section}>
@@ -28,6 +28,10 @@ const Youtube = () => {
                 <img className={header.notification_icon} src="src/icons/notifications.svg"/>
                 <img className={header.profile_picture} src="src/channels/channel-1.jpeg"/>
             </div>
+        </div>
+
+        <div className={sidebar.sidebars}>
+            sidebar
         </div>
         <div className={video.video_grid}>
             <div className={video.video_preview}>
