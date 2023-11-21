@@ -23,7 +23,10 @@ const Youtube = () => {
                 </button>
             </div>
             <div className={header.right_section}>
-                right section
+                <img className={header.upload_icon} src="src/icons/upload.svg"/>
+                <img className={header.youtube_apps_icon} src="src/icons/youtube-apps.svg"/>
+                <img className={header.notification_icon} src="src/icons/notifications.svg"/>
+                <img className={header.profile_picture} src="src/channels/channel-1.jpeg"/>
             </div>
         </div>
         <div className={video.video_grid}>
