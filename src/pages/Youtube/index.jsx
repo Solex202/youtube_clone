@@ -49,7 +49,7 @@ const Youtube = () => {
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
-                        <img className={video.profile_picture} src='src\channels\channel-1.jpeg'/>
+                        <img className={video.profile_picture} src='src/channels/channel-2.jpeg'/>
                     </div>
                     <div className={video.video_info}>
                         <p className={video.video_title}>Talking Tech and AI with Senior dev Lota</p>
@@ -65,7 +65,7 @@ const Youtube = () => {
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
-                        <img className={video.profile_picture} src='src\channels\channel-1.jpeg'/>
+                        <img className={video.profile_picture} src='src/channels/channel-3.jpeg'/>
                     </div>
                     <div className={video.video_info}>
                         <p className={video.video_title}>Talking Tech and AI with Senior dev Lota</p>
@@ -81,7 +81,7 @@ const Youtube = () => {
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
-                        <img className={video.profile_picture} src='src\channels\channel-1.jpeg'/>
+                        <img className={video.profile_picture} src='src/channels/channel-4.jpeg'/>
                     </div>
                     <div className={video.video_info}>
                         <p className={video.video_title}>Talking Tech and AI with Senior dev Lota</p>
@@ -97,7 +97,7 @@ const Youtube = () => {
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
-                        <img className={video.profile_picture} src='src\channels\channel-1.jpeg'/>
+                        <img className={video.profile_picture} src='src/channels/channel-5.jpeg'/>
                     </div>
                     <div className={video.video_info}>
                         <p className={video.video_title}>Talking Tech and AI with Senior dev Lota</p>
@@ -113,7 +113,7 @@ const Youtube = () => {
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
-                        <img className={video.profile_picture} src='src\channels\channel-1.jpeg'/>
+                        <img className={video.profile_picture} src='src/channels/channel-6.jpeg'/>
                     </div>
                     <div className={video.video_info}>
                         <p className={video.video_title}>Talking Tech and AI with Senior dev Lota</p>
@@ -129,7 +129,7 @@ const Youtube = () => {
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
-                        <img className={video.profile_picture} src='src\channels\channel-1.jpeg'/>
+                        <img className={video.profile_picture} src='src/channels/channel-7.jpeg'/>
                     </div>
                     <div className={video.video_info}>
                         <p className={video.video_title}>Talking Tech and AI with Senior dev Lota</p>

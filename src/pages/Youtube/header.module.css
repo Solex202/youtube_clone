@@ -42,6 +42,7 @@
     border-width: 1px;
     border-style: solid;
     border-color: rgb(192,192, 192);
+    margin-left: -1px;
 }
 
 .voice_search {
