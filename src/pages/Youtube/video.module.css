@@ -7,7 +7,7 @@
 }
 
 .channel_picture {
-    background-color: #2e5603;
+    /*background-color: #2e5603;*/
 }
 
 .profile_picture {
@@ -16,7 +16,7 @@
 }
 
 .video_info {
-   background-color: blue;
+   /*background-color: blue;*/
 }
 
 .video_title {
@@ -36,7 +36,7 @@ p {
 .video_info_grid {
     display: grid;
     grid-template-columns: 50px 1fr;
-    background-color: #610606;
+    /*background-color: #610606;*/
 }
 
 .video_author,

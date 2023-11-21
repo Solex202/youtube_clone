@@ -18,7 +18,7 @@ const Youtube = () => {
                     <img  className={header.search_icon} src="src/icons/search.svg"/>
                 </button>
                 <button className={header.voice_search}>
-                    <img  src="src/icons/voice-search-icon.svg"/>
+                    <img className={header.voice_search_icon} src="src/icons/voice-search-icon.svg"/>
 
                 </button>
             </div>
