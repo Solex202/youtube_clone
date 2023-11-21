@@ -5,7 +5,13 @@ import img1 from "../../assets/thumbnail-1.webp"
 const Youtube = () => {
   return (
     <div>
-        <input className={style.search_bar} type='text' placeholder='search'/>
+        <div className={style.header}>
+
+            <input className={style.search_bar} type='text' placeholder='search'/>
+            <div className={style.left_section}></div>
+            <div className={style.middle_section}></div>
+            <div className={style.right_section}></div>
+        </div>
         <div className={style.video_grid}>
             <div className={style.video_preview}>
                 <div className={style.video_preview_img}>
