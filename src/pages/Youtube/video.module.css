@@ -13,13 +13,11 @@
 }
 
 .thumbnail {
-
     width: 100%;
-    
 }
 
 .channel_picture {
-    background-color: chartreuse;
+    background-color: #2e5603;
 }
 
 .profile_picture {
@@ -48,7 +46,7 @@ p {
 .video_info_grid {
     display: grid;
     grid-template-columns: 50px 1fr;
-    background-color: red;
+    background-color: #610606;
 }
 
 .video_author,
