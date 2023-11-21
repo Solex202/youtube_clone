@@ -14,8 +14,13 @@ const Youtube = () => {
             </div>
             <div className={header.middle_section}>
                 <input className={header.search_bar} type='text' placeholder='search'/>
-                <img className={header.search} src="src/icons/search.svg"/>
-                <img className={header.voice_search} src="src/icons/voice-search-icon.svg"/>
+                <button className={header.search_button}>
+                    <img  className={header.search_icon} src="src/icons/search.svg"/>
+                </button>
+                <button className={header.voice_search}>
+                    <img  src="src/icons/voice-search-icon.svg"/>
+
+                </button>
             </div>
             <div className={header.right_section}>
                 right section
