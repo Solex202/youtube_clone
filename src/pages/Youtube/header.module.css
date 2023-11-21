@@ -7,7 +7,8 @@
 
 .left_section {
     background-color: #2e5603;
-    width: 300px;
+    display: flex;
+    align-items: center;
 }
 .middle_section {
     background-color: red;
@@ -20,4 +21,14 @@
 .right_section {
     background-color: indigo;
     width: 250px;
+}
+
+.hamburger_menu {
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.youtube_logo {
+    height: 20px;
 }

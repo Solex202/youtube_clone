@@ -9,11 +9,13 @@ const Youtube = () => {
         <div className={header.header}>
 
             <div className={header.left_section}>
-                left section
+                <img className={header.hamburger_menu} src="src/icons/hamburger-menu.svg"/>
+                <img className={header.youtube_logo} src="src/icons/youtube-logo.svg"/>
             </div>
             <div className={header.middle_section}>
                 <input className={header.search_bar} type='text' placeholder='search'/>
-
+                <img className={header.search} src="src/icons/search.svg"/>
+                <img className={header.voice_search} src="src/icons/voice-search-icon.svg"/>
             </div>
             <div className={header.right_section}>
                 right section
