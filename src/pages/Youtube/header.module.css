@@ -11,11 +11,13 @@
     align-items: center;
 }
 .middle_section {
-    background-color: red;
+    /*background-color: red;*/
     flex: 1;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 580px ;
+    display: flex;
+    align-items: center;
 
 }
 .right_section {
@@ -31,4 +33,15 @@
 
 .youtube_logo {
     height: 20px;
+}
+
+.search {
+    height: 24px;
+    width: 40px;
+}
+
+.voice_search {
+    height: 24px;
+    width: 40px;
+
 }
