@@ -1,3 +1,23 @@
 .header {
     height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left_section {
+    background-color: #2e5603;
+    width: 300px;
+}
+.middle_section {
+    background-color: red;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 580px ;
+
+}
+.right_section {
+    background-color: indigo;
+    width: 250px;
 }

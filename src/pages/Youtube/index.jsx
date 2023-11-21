@@ -9,14 +9,14 @@ const Youtube = () => {
         <div className={header.header}>
 
             <div className={header.left_section}>
-
+                left section
             </div>
             <div className={header.middle_section}>
                 <input className={header.search_bar} type='text' placeholder='search'/>
 
             </div>
             <div className={header.right_section}>
-
+                right section
             </div>
         </div>
         <div className={video.video_grid}>
