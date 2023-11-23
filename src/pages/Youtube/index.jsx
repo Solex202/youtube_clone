@@ -37,7 +37,10 @@ const Youtube = () => {
             <div className={video.video_preview}>
                 <div className={video.video_preview_img}>
                     <img className={video.thumbnail} src={img1}/>
-                    <p className={video.video_time}>10:23</p>
+                    <div className={video.video_time}>
+                        11:20
+                    </div>
+
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>

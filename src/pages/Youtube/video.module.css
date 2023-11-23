@@ -12,11 +12,14 @@
     position: absolute;
     background-color: black;
     color: white;
-    width: 43px;
-    height: 20px;
+    font-family: Roboto , Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px;
     right: 10px;
     bottom: 10px;
-    align-items: center;
+    border-radius: 2px;
+
 }
 
 .channel_picture {
