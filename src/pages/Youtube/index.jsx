@@ -34,24 +34,24 @@ const Youtube = () => {
         </div>
 
         <div className={sidebar.sidebars}>
-            <button>
+            <div>
                 <img className={sidebar.home} src="src/sidebars/home.svg"/>
-            </button>
-            <button>
+            </div>
+            <div>
                 <img className={sidebar.explore} src="src/sidebars/explore.svg"/>
-            </button>
-            <button>
+            </div>
+            <div>
                 <img className={sidebar.subscriptions} src="src/sidebars/subscriptions.svg"/>
-            </button>
-            <button>
+            </div>
+            <div>
                 <img className={sidebar.originals} src="src/sidebars/originals.svg"/>
-            </button>
-            <button>
+            </div>
+            <div>
                 <img className={sidebar.youtube_music} src="src/sidebars/youtube-music.svg"/>
-            </button>
-            <button>
+            </div>
+            <div>
                 <img className={sidebar.library} src="src/sidebars/library.svg"/>
-            </button>
+            </div>
         </div>
         <div className={video.video_grid}>
             <div className={video.video_preview}>
