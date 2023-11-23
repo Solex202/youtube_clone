@@ -3,6 +3,30 @@
     left: 0;
     bottom: 0;
     top: 55px;
-    background-color: green;
     width: 95px;
+    z-index: 200;
+}
+
+.sidebars_box {
+    height: 86px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sidebars_box:hover {
+    background-color: #e5dfdf;
+}
+
+.sidebars_box img{
+    height: 26px;
+    margin-bottom: 4px;
+}
+
+.sidebars_box div{
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 5px;
 }
