@@ -25,7 +25,10 @@ const Youtube = () => {
             <div className={header.right_section}>
                 <img className={header.upload_icon} src="src/icons/upload.svg"/>
                 <img className={header.youtube_apps_icon} src="src/icons/youtube-apps.svg"/>
-                <img className={header.notification_icon} src="src/icons/notifications.svg"/>
+                <div className={header.notification_icon_container}>
+                    <img className={header.notifications_icon} src="src/icons/notifications.svg"/>
+                    <div className={header.notifications_count}>3</div>
+                </div>
                 <img className={header.profile_picture} src="src/channels/channel-1.jpeg"/>
             </div>
         </div>

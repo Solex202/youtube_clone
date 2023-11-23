@@ -99,12 +99,31 @@
     height: 24px;
 }
 
+.notification_icon_container {
+    position: relative;
+}
+
 .youtube_apps_icon {
     height: 24px;
 }
 
-.notification_icon {
+.notifications_icon {
     height: 24px;
+}
+
+.notifications_count {
+    position: absolute;
+    top: -2px;
+    right: -4px ;
+    background-color: #be0505;
+    color: white;
+    border-radius: 70px;
+     padding: 2px 5px;
+
+    font-family: Roboto , Arial;
+    font-size: 12px;
+    font-weight: 500;
+
 }
 
 .profile_picture {
