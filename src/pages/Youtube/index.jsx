@@ -57,6 +57,9 @@ const Youtube = () => {
             <div className={video.video_preview}>
                 <div className={video.video_preview_img}>
                     <img className={video.thumbnail} src="src/assets/thumbnail-2.webp"/>
+                    <div className={video.video_time}>
+                        11:20
+                    </div>
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
@@ -73,6 +76,9 @@ const Youtube = () => {
             <div className={video.video_preview}>
                 <div className={video.video_preview_img}>
                     <img className={video.thumbnail} src="src/assets/thumbnail-3.webp"/>
+                    <div className={video.video_time}>
+                        11:20
+                    </div>
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
@@ -89,6 +95,9 @@ const Youtube = () => {
             <div className={video.video_preview}>
                 <div className={video.video_preview_img}>
                     <img className={video.thumbnail} src="src/assets/thumbnail-4.webp"/>
+                    <div className={video.video_time}>
+                        5:20:45
+                    </div>
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
@@ -105,6 +114,9 @@ const Youtube = () => {
             <div className={video.video_preview}>
                 <div className={video.video_preview_img}>
                     <img className={video.thumbnail} src="src/assets/thumbnail-5.webp"/>
+                    <div className={video.video_time}>
+                        0:50
+                    </div>
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
@@ -121,6 +133,9 @@ const Youtube = () => {
             <div className={video.video_preview}>
                 <div className={video.video_preview_img}>
                     <img className={video.thumbnail} src="src/assets/thumbnail-6.webp"/>
+                    <div className={video.video_time}>
+                        1:20:12
+                    </div>
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
@@ -137,6 +152,9 @@ const Youtube = () => {
             <div className={video.video_preview}>
                 <div className={video.video_preview_img}>
                     <img className={video.thumbnail} src="src/assets/lil sis.webp"/>
+                    <div className={video.video_time}>
+                        2:02:20
+                    </div>
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
