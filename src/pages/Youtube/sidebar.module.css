@@ -3,16 +3,18 @@
     left: 0;
     bottom: 0;
     top: 55px;
-    width: 95px;
-    z-index: 200;
+    width: 99px;
+    /*z-index: 200;*/
+    padding-top: 5px;
 }
 
 .sidebars_box {
-    height: 86px;
+    height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .sidebars_box:hover {

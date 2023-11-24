@@ -57,6 +57,7 @@
     margin-left: -2px;
     margin-right: 10px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.5);
+    position: relative;
 }
 
 .voice_search {
@@ -64,6 +65,25 @@
     width: 40px;
     border-radius: 20px;
     border: none;
+    position: relative;
+}
+
+.voice_search .tooltip{
+    position: absolute;
+    background-color: #797676;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -52px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    width: 130px;
+}
+
+.voice_search:hover .tooltip {
+    opacity: 1;
 }
 
 .search_icon {
@@ -88,6 +108,23 @@
     border-radius: 2px;
     box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.5);
     width: 0;
+}
+
+.search_button .tooltip{
+    position: absolute;
+    background-color:  #797676;
+    color: white;
+    padding: 10px 12px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -52px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+
+.search_button:hover .tooltip{
+    opacity: 1;
 }
 
 .search_bar::placeholder {

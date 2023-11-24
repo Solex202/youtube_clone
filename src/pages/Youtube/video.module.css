@@ -37,7 +37,7 @@
 
 .video_title {
     margin-top: 0;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: bold;
     line-height: 20px;
     margin-bottom: 12px;
@@ -57,7 +57,7 @@ p {
 
 .video_author,
 .video_stats {
-    font-size: 12px;
+    font-size: 16px;
     color: rgb(96, 96, 96);
 }
 
@@ -74,13 +74,16 @@ p {
     background-color: #fcf7f7;
     padding-left: 20px;
     padding-right: 20px;
+
 }
 
 body{
     margin: 0;
 
     padding-top: 80px;
-    padding-left: 80px;
+    padding-left: 75px;
+    /*padding-right: 20px;*/
+
 }
 
 

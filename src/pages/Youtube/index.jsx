@@ -17,9 +17,11 @@ const Youtube = () => {
                 <input className={header.search_bar} type='text' placeholder='search'/>
                 <button className={header.search_button}>
                     <img  className={header.search_icon} src="src/icons/search.svg"/>
+                    <div className={header.tooltip}>Search</div>
                 </button>
                 <button className={header.voice_search}>
                     <img className={header.voice_search_icon} src="src/icons/voice-search-icon.svg"/>
+                    <div className={header.tooltip}>Search with your voice</div>
                 </button>
             </div>
             <div className={header.right_section}>
@@ -64,7 +66,7 @@ const Youtube = () => {
                 <div className={video.video_preview_img}>
                     <img className={video.thumbnail} src={img1}/>
                     <div className={video.video_time}>
-                        11:20
+                        19:54
                     </div>
 
                 </div>
@@ -73,7 +75,7 @@ const Youtube = () => {
                         <img className={video.profile_picture} src='src\channels\channel-1.jpeg'/>
                     </div>
                     <div className={video.video_info}>
-                        <p className={video.video_title}>Talking Tech and AI with Senior dev Lota</p>
+                        <p className={video.video_title}>Talking Tech and AI with Senior dev Lota and leveraging on the awesomeness of html and css</p>
                         <p className={video.video_author}>Lotachukwu Onwuka</p>
                         <p className ={video.video_stats}>3.4M views &#183; 6 months ago </p>
                     </div>
@@ -84,7 +86,7 @@ const Youtube = () => {
                 <div className={video.video_preview_img}>
                     <img className={video.thumbnail} src="src/assets/thumbnail-2.webp"/>
                     <div className={video.video_time}>
-                        11:20
+                        1:19:34
                     </div>
                 </div>
                 <div className={video.video_info_grid}>
