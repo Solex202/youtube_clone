@@ -56,7 +56,7 @@
     border-color: rgb(192,192, 192);
     margin-left: -2px;
     margin-right: 10px;
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.5);
+    /*box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.5);*/
     position: relative;
 }
 
@@ -98,8 +98,14 @@
     border-style: solid;
     border-width: 1px;
     border-radius: 2px;
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.5);
+    /*box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.5);*/
     width: 0;
+}
+
+.search_bar:focus {
+    outline: none;
+    border-color: rgb(7, 51, 124);
+    box-shadow: 0 0 0 1px rgb(66, 133, 244, 0.3);
 }
 
 .search_button:hover .tooltip{
