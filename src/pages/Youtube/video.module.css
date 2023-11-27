@@ -12,7 +12,6 @@
     position: absolute;
     background-color: black;
     color: white;
-    font-family: Roboto , Arial;
     font-size: 12px;
     font-weight: 500;
     padding: 4px;
@@ -26,7 +25,7 @@
     width: 100px;
     height: 100px;
     object-fit: cover;
-    background-color: red;
+    /*background-color: red;*/
 }
 
 .profile_picture {
@@ -47,7 +46,6 @@
 }
 
 p {
-    font-family: "Roboto Light", Arial;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -85,13 +83,38 @@ p {
     }
 }
 
+@media (min-width: 1101px) and (max-width: 1399px) {
+    .video_grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1400px) {
+    .video_grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+
+@media(max-width: 625px){
+    .video_grid{
+        grid-template-columns: 1fr;
+    }
+}
+
 body{
     margin: 0;
 
     padding-top: 80px;
     padding-left: 75px;
+    font-family: Roboto, Arial ;
     /*padding-right: 20px;*/
 
+}
+
+.link{
+    position: absolute;
+    color: orange;
 }
 
 

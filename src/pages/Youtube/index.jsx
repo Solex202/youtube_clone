@@ -43,6 +43,8 @@ const Youtube = () => {
             </div>
         </div>
 
+
+
         <div className={sidebar.sidebars}>
             <div className={sidebar.sidebars_box}>
                 <img className={sidebar.home} src="src/sidebars/home.svg"/>
@@ -69,6 +71,8 @@ const Youtube = () => {
                 <div>Library</div>
             </div>
         </div>
+
+
         <div className={video.video_grid}>
             <div className={video.video_preview}>
                 <div className={video.video_preview_img}>
@@ -90,13 +94,16 @@ const Youtube = () => {
                 </div>
             </div>
 
-            <div className={video.video_preview}>
-                <div className={video.video_preview_img}>
-                    <img className={video.thumbnail} src="src/assets/thumbnail-2.webp"/>
-                    <div className={video.video_time}>
-                        1:19:34
+            <div className={video.video_preview} >
+                <a href='https://www.youtube.com/watch?v=31SUabPZY1w'>
+                    <div className={video.video_preview_img}  >
+                        <img className={video.thumbnail} src="src/assets/thumbnail-2.webp"/>
+                        <div className={video.video_time}>
+                            1:19:34
+                        </div>
+
                     </div>
-                </div>
+                </a>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
                         <img className={video.profile_picture} src='src/channels/channel-2.jpeg'/>
