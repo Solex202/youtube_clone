@@ -73,14 +73,41 @@ const Youtube = () => {
         </div>
 
 
+
         <div className={video.video_grid}>
+            <div className={video.video_preview} >
+                <a className={video.link} href='https://www.youtube.com/watch?v=31SUabPZY1w'>
+                    <div className={video.video_preview_img}  >
+                        <img className={video.thumbnail} src="src/assets/thumbnail-2.webp"/>
+                        <div className={video.video_time}>
+                            1:19:34
+                        </div>
+                    </div>
+                </a>
+                <div className={video.video_info_grid}>
+                    <div className={video.channel_picture}>
+                        <a href="https://www.youtube.com/channel/UC5l5v2XtcDd-CKLdI8HLIQg">
+                            <img className={video.profile_picture} src='src/channels/channel-2.jpeg'/>
+                        </a>
+                    </div>
+                    <div className={video.video_info}>
+                        <a className={video.link} href='https://www.youtube.com/watch?v=31SUabPZY1w'>
+                            <p className={video.video_title}>Talking Tech and AI with Senior dev Lota</p>
+                        </a>
+                        <a className={video.link} href='https://www.youtube.com/channel/UC5l5v2XtcDd-CKLdI8HLIQg'>
+                            <p className={video.video_author}>Lotachukwu Onwuka</p>
+                        </a>
+                        <p className ={video.video_stats}>3.4M views &#183; 6 months ago </p>
+                    </div>
+                </div>
+            </div>
+
             <div className={video.video_preview}>
                 <div className={video.video_preview_img}>
                     <img className={video.thumbnail} src={img1}/>
                     <div className={video.video_time}>
                         19:54
                     </div>
-
                 </div>
                 <div className={video.video_info_grid}>
                     <div className={video.channel_picture}>
@@ -94,27 +121,7 @@ const Youtube = () => {
                 </div>
             </div>
 
-            <div className={video.video_preview} >
-                <a href='https://www.youtube.com/watch?v=31SUabPZY1w'>
-                    <div className={video.video_preview_img}  >
-                        <img className={video.thumbnail} src="src/assets/thumbnail-2.webp"/>
-                        <div className={video.video_time}>
-                            1:19:34
-                        </div>
 
-                    </div>
-                </a>
-                <div className={video.video_info_grid}>
-                    <div className={video.channel_picture}>
-                        <img className={video.profile_picture} src='src/channels/channel-2.jpeg'/>
-                    </div>
-                    <div className={video.video_info}>
-                        <p className={video.video_title}>Talking Tech and AI with Senior dev Lota</p>
-                        <p className={video.video_author}>Lotachukwu Onwuka</p>
-                        <p className ={video.video_stats}>3.4M views &#183; 6 months ago </p>
-                    </div>
-                </div>
-            </div>
 
             <div className={video.video_preview}>
                 <div className={video.video_preview_img}>
